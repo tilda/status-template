@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acme Co. Status</title>
+    <meta property="og:title" content="Status" />
+    <meta property="og:site_name" content="Acme Co." />
+    <meta property="og:description" content="Get information on how our systems are doing." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.6.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+<div id="loading-screen">
+  <div id="loading-spinner-container">
+    <div id="loading-spinner" style="margin:0 auto;text-align:center;"></div>
+  </div>
+</div>
+<div id="main">
+<div class="tabs is-centered">
+    <ul>
+        <li><a href="#"><i class="material-icons">chevron_left</i> Go back to Acme Co.</a></li>
+        <li class="is-active"><a href="#">Status</a></li>
+    </ul>
+</div>
+<article class="message is-success" style="width:80%;text-align:center;margin: 0 auto;">
+    <div class="message-body">
+        <i class="material-icons">done_all</i> All services running smoothly!
+    </div>
+</article>
+<br/>
+<div class="box" style="width: 80%;text-align:center;margin:0 auto;">
+    <p><i class="material-icons">done</i> API is up and running!</p><hr/>
+    <p><i class="material-icons">done</i> Website is up and running!</p><hr/>
+    <p><i class="material-icons">done</i> Backend cluster is up and running!</p>
+    <!-- etc. -->
+</div>
+<br/>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        This status page is a example and stuff. Feel free<br/>
+          to do stuff to it and stuff.
+          &copy; 2017 <a href="https://github.com/tilda">S Stewart</a> <br/>
+          under the <a href="https://opensource.org/licenses/MIT">MIT License.</a>
+          <br/>Here's the <a href="https://github.com/tilda/status-template">source!</a>
+      </p>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
